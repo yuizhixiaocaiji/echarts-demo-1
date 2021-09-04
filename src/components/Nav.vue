@@ -28,14 +28,14 @@ export default {
 @import "~@/assets/style/helper.scss";
 
 nav {
+  @extend %outerShadow;
   display: flex;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
   flex-direction: row;
   font-size: 12px;
 
   > .item {
     padding: 2px 0;
-    width: 33.3333333%;
+    width: 33.33333%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,5 +51,4 @@ nav {
     color: $color-highlight;
   }
 }
-
 </style >
