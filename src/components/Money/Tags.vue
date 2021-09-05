@@ -29,7 +29,7 @@ export default class Tags extends Vue {
     } else {
       this.selectedTags.push(tag);
     }
-    this.$emit('update:value', this.selectedTags)
+    this.$emit('update:value', this.selectedTags);
   }
 
   create() {
@@ -46,6 +46,7 @@ export default class Tags extends Vue {
 
 <style lang="scss" scoped >
 .tags {
+  background: white;
   font-size: 14px;
   padding: 16px;
   flex-grow: 1;
