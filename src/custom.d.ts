@@ -18,11 +18,3 @@ type TagListModel = {
   remove: (id: string) => boolean
   save: () => void
 }
-
-interface Window {
-  tagList: Tag[];
-  createTag: (name: string) => void;
-  removeTag: (id: string) => boolean;
-  updateTag: TagListModel['update'];
-  findTag: (id: string) => Tag | undefined;
-}

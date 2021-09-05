@@ -1,9 +1,11 @@
 <template >
   <Layout >
     <div class="tags" >
-      <router-link class="tag" v-for="tag in tags" :key="tag.id" :to="`/labels/edit/${tag.id}`" ><span >{{
-          tag.name
-        }}</span >
+      <router-link class="tag"
+                   v-for="tag in tags"
+                   :key="tag.id"
+                   :to="`/labels/edit/${tag.id}`" >
+        <span >{{ tag.name }}</span >
         <Icon name="right" />
       </router-link >
     </div >
@@ -17,17 +19,18 @@
 import Vue from 'vue';
 import {Component} from 'vue-property-decorator';
 import Button from '@/components/Button.vue';
+import store from '@/store/index2';
 
 @Component({
   components: {Button}
 })
 export default class Labels extends Vue {
-  tags = window.tagList;
+  tags = store.tagList;
 
   createTag() {
     const name = window.prompt('请输入标签名');
     if (name) {
-      window.createTag(name);
+      store.createTag(name);
     }
   }
 }
