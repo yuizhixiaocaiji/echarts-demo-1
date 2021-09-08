@@ -30,6 +30,10 @@ import recordTypeList from '@/constants/recordTypeList';
 import dayjs from 'dayjs';
 import clone from '@/lib/clone';
 
+const ECharts: any = require('vue-echarts');
+
+console.log(ECharts);
+
 @Component({
   components: {Tabs},
 })

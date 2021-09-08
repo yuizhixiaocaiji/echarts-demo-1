@@ -4103,6 +4103,13 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
 
+echarts@4.9.0:
+  version "4.9.0"
+  resolved "https://registry.nlark.com/echarts/download/echarts-4.9.0.tgz?cache=0&sync_timestamp=1630472157165&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fecharts%2Fdownload%2Fecharts-4.9.0.tgz#a9b9baa03f03a2a731e6340c55befb57a9e1347d"
+  integrity sha1-qbm6oD8Doqcx5jQMVb77V6nhNH0=
+  dependencies:
+    zrender "4.3.2"
+
 editorconfig@^0.15.3:
   version "0.15.3"
   resolved "https://registry.nlark.com/editorconfig/download/editorconfig-0.15.3.tgz#bef84c4e75fb8dcb0ce5cee8efd51c15999befc5"
@@ -8926,6 +8933,11 @@ requires-port@^1.0.0:
   resolved "https://registry.npm.taobao.org/requires-port/download/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
+resize-detector@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.npm.taobao.org/resize-detector/download/resize-detector-0.3.0.tgz#fe495112e184695500a8f51e0389f15774cb1cfc"
+  integrity sha1-/klREuGEaVUAqPUeA4nxV3TLHPw=
+
 resolve-cwd@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/resolve-cwd/download/resolve-cwd-2.0.0.tgz#00a9f7387556e27038eae232caa372a6a59b665a"
@@ -10552,6 +10564,19 @@ vue-class-component@7.2.6:
   resolved "https://registry.npm.taobao.org/vue-class-component/download/vue-class-component-7.2.6.tgz#8471e037b8e4762f5a464686e19e5afc708502e4"
   integrity sha1-hHHgN7jkdi9aRkaG4Z5a/HCFAuQ=
 
+vue-demi@^0.11.2:
+  version "0.11.4"
+  resolved "https://registry.nlark.com/vue-demi/download/vue-demi-0.11.4.tgz#6101992fe4724cf5634018a16e953f3052e94e2a"
+  integrity sha1-YQGZL+RyTPVjQBihbpU/MFLpTio=
+
+vue-echarts@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.nlark.com/vue-echarts/download/vue-echarts-6.0.0.tgz#480263fc6ed2125b886bb1b7f05bf9273edee552"
+  integrity sha1-SAJj/G7SEluIa7G38Fv5Jz7e5VI=
+  dependencies:
+    resize-detector "^0.3.0"
+    vue-demi "^0.11.2"
+
 vue-eslint-parser@^7.0.0:
   version "7.11.0"
   resolved "https://registry.nlark.com/vue-eslint-parser/download/vue-eslint-parser-7.11.0.tgz?cache=0&sync_timestamp=1630882911486&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvue-eslint-parser%2Fdownload%2Fvue-eslint-parser-7.11.0.tgz#214b5dea961007fcffb2ee65b8912307628d0daf"
@@ -11237,3 +11262,8 @@ yorkie@^2.0.0:
     is-ci "^1.0.10"
     normalize-path "^1.0.0"
     strip-indent "^2.0.0"
+
+zrender@4.3.2:
+  version "4.3.2"
+  resolved "https://registry.nlark.com/zrender/download/zrender-4.3.2.tgz?cache=0&sync_timestamp=1630140908990&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fzrender%2Fdownload%2Fzrender-4.3.2.tgz#ec7432f9415c82c73584b6b7b8c47e1b016209c6"
+  integrity sha1-7HQy+UFcgsc1hLa3uMR+GwFiCcY=
